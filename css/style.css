@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "Gilroy-Medium";
-    src: url();
+    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
 }
 
 * {
@@ -135,13 +135,13 @@ a {
 .main__context__text {
     width: 466px;
     height: 48px;
+    margin-bottom: 37px;
     color: #888;
     font-family: "Gilroy-Medium";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 37px;
 }
 
 .main__context__watch {
@@ -150,6 +150,7 @@ a {
 }
 
 .main__content__btn {
+    margin-left: 2px;
     margin-right: 48px;
     width: 140px;
     height: 50px;
@@ -182,6 +183,8 @@ a {
 }
 
 .main__context__watch__text {
+    width: 466px;
+    height: 48px;
     color: #AAA;
     font-family: "Gilroy-Bold";
     font-size: 15px;
