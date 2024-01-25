@@ -50,12 +50,63 @@ a {
     display: flex;
 }
 
+.text__logo__grow {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text__logo__be {
+    color: #F25822;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .header__menu {
     height: 17px;
     width: 533px;
     display: flex;
     justify-content: space-between;
     margin-top: 51px;
+
+}
+
+.header__menu__giper {
+    color: #000;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu__mod {
+    color: #F25822;
+    font-family: "Gilroy-Semibold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__menu__block {
+    height: 17px;
+    display: inline-flex;
+    gap: 2px;
+}
+
+.header__menu__image {
+    width: 8px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
 }
 
 .main {
@@ -73,7 +124,7 @@ a {
     width: 522px;
     height: 222px;
     color: #000;
-    font-family: Gilroy-Bold;
+    font-family: "Gilroy-Bold";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -85,7 +136,7 @@ a {
     width: 466px;
     height: 48px;
     color: #888;
-    font-family: Gilroy-Medium;
+    font-family: "Gilroy-Medium";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -100,8 +151,45 @@ a {
 
 .main__content__btn {
     margin-right: 48px;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 
+.main__content__btn__block {
+    width: 69px;
+    height: 19px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.main__context__watch__start_now {
+    color: #FFF;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.main__content__btn__Watch {
+    width: 90px;
+    height: 19px;
+    margin-top: 15px;
+}
+
+.main__context__watch__text {
+    color: #AAA;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ 
 .footer {
     padding-left: 345px;
     padding-top: 97px;
